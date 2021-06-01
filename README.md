@@ -1,2 +1,3 @@
 # British_Bot
-Bot that makes fun of the british people using their dialect and media
+My first attempt at making a discord bot.
+British bot is a satirical bot that pokes fun at British culture. No harm is meant by this application.
