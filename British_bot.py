@@ -51,7 +51,7 @@ async def leave(ctx):
         await voice.disconnect()
         await ctx.send("cheers, later bruv")
     else:
-        await ctx.send("bruv")
+        await ctx.send("The only channel I'm in right now is the english channel")
         
 @client.command(name='godsavethequeen')
 async def play(ctx):
