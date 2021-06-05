@@ -52,6 +52,12 @@ async def leave(ctx):
         await ctx.send("cheers, later bruv")
     else:
         await ctx.send("bruv")
+        
+@client.command(name='godsavethequeen')
+async def play(ctx):
+    voice = discord.utils.get(client.voice_clients, guild=ctx.guild)
+    source = await discord.FFmpegOpusAudio.from_probe("good_music.mp3", method='fallback')
+    voice.play(source)
 
 ###################################################################
 
