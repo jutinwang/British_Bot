@@ -122,12 +122,12 @@ async def playlist(ctx):
     await ctx.send("Here is what the good people of Britiania are listening to on Spotify")
     em = discord.Embed(title = "Song - Artist - Album\n")
 
-    allTracks = ""
-    
-    for item in range(int(tracks)):
-        allTracks += item['track']['name'] + ' - ' + item['track']['artists'][0]['name'] + ' - ' + item['track']['album']['name'] + '\n'
-
-    await ctx.send(allTracks)
+    for item in r.json()['tracks']['items']:
+        await ctx.send(
+            item['track']['name'] + ' - ' +
+            item['track']['artists'][0]['name'] + ' - ' +
+            item['track']['album']['name']
+        )
 
 
 client.run(TOKEN) 
