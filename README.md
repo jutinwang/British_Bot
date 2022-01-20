@@ -5,8 +5,8 @@ British bot is a satirical bot that pokes fun at British culture. No harm is mea
 ![](images/bot_image1.png)</br>
 ![](images/bot_image2.png)</br>
 ![](images/bot_image3.png)</br>
-Text Command Examples:</br>
+<b>Text Command Examples:</b></br>
 ![](images/bot_text1.png)
 ![](images/bot_text2.png)</br>
-Spotify API command demonstration: </br>
+<b>Spotify API command demonstration: </b></br>
 ![](images/bot_spotify.png)</br>
