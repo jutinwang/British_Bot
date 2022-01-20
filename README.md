@@ -7,6 +7,6 @@ Image Command Examples: </br>
 ![](images/bot_image3.png)</br>
 Text Command Examples:</br>
 ![](images/bot_text1.png)
-![](images/bot_text2.png)
+![](images/bot_text2.png)</br>
 Spotify API command demonstration: </br>
 ![](images/bot_spotify.png)</br>
