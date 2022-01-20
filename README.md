@@ -8,3 +8,5 @@ Image Command Examples: </br>
 Text Command Examples:</br>
 ![](images/bot_text1.png)
 ![](images/bot_text2.png)
+Spotify API command demonstration: </br>
+![](images/bot_spotify.png)</br>
